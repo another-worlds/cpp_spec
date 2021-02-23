@@ -1,32 +1,18 @@
 #include <iostream>
-#include <map>
+#include <unordered_map>
 #include <vector>
 using namespace std;
-<<<<<<< HEAD
-vector<vector<string> > buses;
-=======
+using namespace ranges;
 
 
 
-map<string, vector<string> > buses;
->>>>>>> 6ad0fca6e55bd2551df1e49ddb59c80ad652ac38
+unordered_map<string, vector<string> > buses;
 
 int main() {
     int q;
     cin >> q;
 
-<<<<<<< HEAD
-    for (int i = 0; i < q; i++)
-    {
-        string command;
-        cin >> command;
-        if(command == "NEW_BUS") {
-            
-        }
-    }
-    
-=======
-    for(int l = 0; l < q; l++) {
+    for(int i = 0; i < q; i++) {
         string command;
         cin >> command;
         if(command == "NEW_BUS") {
@@ -37,6 +23,7 @@ int main() {
                 cin >> stop;
                 buses[bus].push_back(stop);
             }
+        ranges
         } else if(command == "BUSES_FOR_STOP") {
             string stop;
             int counter = 0;
@@ -110,7 +97,6 @@ int main() {
             }
         }
     }
->>>>>>> 6ad0fca6e55bd2551df1e49ddb59c80ad652ac38
 
     return 0;
 }

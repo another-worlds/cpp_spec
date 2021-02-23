@@ -1,0 +1,8 @@
+100
+NEW_BUS 1 7 A B C D E F G
+NEW_BUS 2 7 A B C D E F G
+NEW_BUS 3 7 A B C D E F G
+NEW_BUS 4 7 A B C D E F G
+STOPS_FOR_BUS 12 32 wedcd wcwecew ccecwe
+     wef wef dwqxqwd qwd ww
+ALL_BUSES
