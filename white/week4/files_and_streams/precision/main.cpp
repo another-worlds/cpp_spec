@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    string in_n = "input2.txt";
+    string in_n = "input.txt";
     ifstream in(in_n);
 
     cout << setprecision(3) << fixed;
