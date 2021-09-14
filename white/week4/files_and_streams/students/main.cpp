@@ -17,6 +17,7 @@ public:
         year = y;
         index = i;
     }
+    
 
 
     string first_name;
@@ -28,9 +29,16 @@ public:
 };
 
 string process_query(int index, string query, vector<Student> students) {
-    if(query == "date") {
-        //smth
-    } else if (query == "name")
+	if(index >= 0 && index < students.size()) {
+		return "bad request";
+	}
+		if(query == "date") {
+			return students.
+		} else if (query == "name") {
+		
+		} else {
+		}
+	} 
 }
 
 int main() {
