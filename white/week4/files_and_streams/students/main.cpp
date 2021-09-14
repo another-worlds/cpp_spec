@@ -28,17 +28,25 @@ public:
     int index;
 };
 
+string getDate(int index, vector<Student> students) {
+	Student s = students[index];
+	s.
+}
+
+string getName(int index, vector<Student> students) {
+	
+}
+
 string process_query(int index, string query, vector<Student> students) {
+	string result = "bad request";
 	if(index >= 0 && index < students.size()) {
-		return "bad request";
-	}
 		if(query == "date") {
-			return students.
+			result = getDate(index);
 		} else if (query == "name") {
-		
-		} else {
+			result = getName(index);
 		}
-	} 
+	}
+	return result;
 }
 
 int main() {
