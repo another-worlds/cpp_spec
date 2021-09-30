@@ -15,7 +15,7 @@ variables of the variables like N, M, etc
 */
 
 #define DEBUG
-//#undef DEBUG
+#undef DEBUG
 
 #ifdef DEBUG
 ifstream is("test");
